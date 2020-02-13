@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>A letter to CJY</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript">if(window.top!== window.self){top.location=self.location;}</script>
+   		<link rel="shortcut icon" href="love.ico" type="image/x-icon"/>
+    	<link rel="apple-touch-icon" sizes="128x128" href="love.ico" type="image/png" />
+		<link type="text/css" rel="stylesheet" href="css/default.css">
+	</head>
+<body>
+<audio autoplay="autopaly">
+<source src="music/bgm.mp3" type="audio/mp3" />
+</audio>
+<style type="text/css">
+    .nonedown
+    {
+    font-size: 15px;
+    }
+</style>
+<!--text-decoration:none;-->
+<div id="main">
+<div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
+            <div id="wrap">
+                <div id="text">
+			        <div id="code">
+                        <span class="say">天知道我为什么如此无可救药地</span><br>
+                        <span class="say">喜欢你</span><br>
+                        <span class="say">即使是时间</span> <br>
+			        	<span class="say">也不过是你的帮凶</span><br>
+                        <span class="say">让我在漫长的岁月里知道</span><br>
+                        <span class="say">什么是<a href="../endlessLove.html" class = "nonedown">无法停止的爱</a></span><br>
+                        <br>
+                        <span class="say">有时候我在清晨醒来</span><br>
+                        <span class="say">第一个念头就是想你</span><br>
+                        <span class="say">还没开窗阳光就照进来了</span><br>
+                        <span class="say">心头温暖而炽热</span><br>
+                        <span class="say">光是觉得你存在在这个世界上</span><br>
+                        <span class="say">就让我觉得今天是值得好好度过的一天</span><br>
+                        <span class="say">世界真的会因一个人而变得色彩缤纷</span><br>
+                        <span class="say"></span><br>
+                        <span class="say">你是我见过最可爱的人</span><br>
+                        <span class="say">真应该遇到最好的人</span><br>
+                        <span class="say">得到最美好的爱情</span><br>
+						<span class="say">我也希望我就是</span><br> 
+                        <br>
+                        <span class="say">或许你还在自己编织的茧中疑惑</span><br>
+                        <span class="say">但我已经鼓起勇气</span><br>
+                        <span class="say">贪婪地想走近你</span><br>
+                        <span class="say">我才不会傻傻地等着你破茧而出</span><br>
+                        <span class="say">我要亲手把你从你的世界里拉出来</span><br>
+                        <span class="say">要小心哦</span><br>
+                        <span class="say">牵起你的手</span><br>
+			        	<span class="say">我可不会放开</span><br>
+                        <span class="say"> </span><br>
+ 
+                        <span class="say"><a href="../a_line.html" id="accept">我还有一句话想说</a></span>
+			        </div>
+                </div>
+                <div id="clock-box">
+                   现在是我<span class="STYLE1">和</span>你<span class="STYLE1">相识的</span>
+                  <div id="clock"></div>
+              </div>
+                <canvas id="canvas" width="1100" height="680"></canvas>
+            </div>
+            
+        </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jscex.min.js"></script>
+    <script type="text/javascript" src="js/jscex-parser.js"></script>
+    <script type="text/javascript" src="js/jscex-jit.js"></script>
+    <script type="text/javascript" src="js/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="js/jscex-async.min.js"></script>
+    <script type="text/javascript" src="js/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="js/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/love.js" charset="utf-8"></script>
+    <script>
+        (function(){
+            var canvas = $('#canvas');
+            
+            if (!canvas[0].getContext) {
+                $("#error").show();
+                return false;
+            }
+    
+            var width = canvas.width();
+            var height = canvas.height();
+            
+            canvas.attr("width", width);
+            canvas.attr("height", height);
+    
+            var opts = {
+                seed: {
+                    x: width / 2 - 20,
+                    color: "rgb(190, 26, 37)",
+                    scale: 2
+                },
+                branch: [
+                    [535, 680, 570, 250, 500, 200, 30, 100, [
+                        [540, 500, 455, 417, 340, 400, 13, 100, [
+                            [450, 435, 434, 430, 394, 395, 2, 40]
+                        ]],
+                        [550, 445, 600, 356, 680, 345, 12, 100, [
+                            [578, 400, 648, 409, 661, 426, 3, 80]
+                        ]],
+                        [539, 281, 537, 248, 534, 217, 3, 40],
+                        [546, 397, 413, 247, 328, 244, 9, 80, [
+                            [427, 286, 383, 253, 371, 205, 2, 40],
+                            [498, 345, 435, 315, 395, 330, 4, 60]
+                        ]],
+                        [546, 357, 608, 252, 678, 221, 6, 100, [
+                            [590, 293, 646, 277, 648, 271, 2, 80]
+                        ]]
+                    ]] 
+                ],
+                bloom: {
+                    num: 700,
+                    width: 1080,
+                    height: 650,
+                },
+                footer: {
+                    width: 1200,
+                    height: 5,
+                    speed: 10,
+                }
+            }
+    
+            var tree = new Tree(canvas[0], width, height, opts);
+            var seed = tree.seed;
+            var foot = tree.footer;
+            var hold = 1;
+    
+            canvas.click(function(e) {
+                var offset = canvas.offset(), x, y;
+                x = e.pageX - offset.left;
+                y = e.pageY - offset.top;
+                if (seed.hover(x, y)) {
+                    hold = 0; 
+                    canvas.unbind("click");
+                    canvas.unbind("mousemove");
+                    canvas.removeClass('hand');
+                }
+            }).mousemove(function(e){
+                var offset = canvas.offset(), x, y;
+                x = e.pageX - offset.left;
+                y = e.pageY - offset.top;
+                canvas.toggleClass('hand', seed.hover(x, y));
+            });
+    
+            var seedAnimate = eval(Jscex.compile("async", function () {
+                seed.draw();
+                while (hold) {
+                    $await(Jscex.Async.sleep(10));
+                }
+                while (seed.canScale()) {
+                    seed.scale(0.95);
+                    $await(Jscex.Async.sleep(10));
+                }
+                while (seed.canMove()) {
+                    seed.move(0, 2);
+                    foot.draw();
+                    $await(Jscex.Async.sleep(10));
+                }
+            }));
+    
+            var growAnimate = eval(Jscex.compile("async", function () {
+                do {
+                    tree.grow();
+                    $await(Jscex.Async.sleep(10));
+                } while (tree.canGrow());
+            }));
+    
+            var flowAnimate = eval(Jscex.compile("async", function () {
+                do {
+                    tree.flower(2);
+                    $await(Jscex.Async.sleep(10));
+                } while (tree.canFlower());
+            }));
+    
+            var moveAnimate = eval(Jscex.compile("async", function () {
+                tree.snapshot("p1", 240, 0, 610, 680);
+                while (tree.move("p1", 500, 0)) {
+                    foot.draw();
+                    $await(Jscex.Async.sleep(10));
+                }
+                foot.draw();
+                tree.snapshot("p2", 500, 0, 610, 680);
+    
+                canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+                canvas.css("background", "#ffe");
+                $await(Jscex.Async.sleep(300));
+                canvas.css("background", "none");
+            }));
+    
+            var jumpAnimate = eval(Jscex.compile("async", function () {
+                var ctx = tree.ctx;
+                while (true) {
+                    tree.ctx.clearRect(0, 0, width, height);
+                    tree.jump();
+                    foot.draw();
+                    $await(Jscex.Async.sleep(25));
+                }
+            }));
+    
+            var textAnimate = eval(Jscex.compile("async", function () {
+                var together = new Date();
+                together.setFullYear(2016, 12, 13); 			//时间年月日
+                together.setHours(11);						//小时	
+                together.setMinutes(0);					//分钟
+                together.setSeconds(0);					//秒前一位
+                together.setMilliseconds(2);				//秒第二位
+    
+                $("#code").show().typewriter();
+                while (true) {
+                    timeElapse(together);
+                    $await(Jscex.Async.sleep(1000));
+                }
+            }));
+    
+            var runAsync = eval(Jscex.compile("async", function () {
+                $await(seedAnimate());
+                $await(growAnimate());
+                $await(flowAnimate());
+                $await(moveAnimate());
+    
+                textAnimate().start();
+    
+                $await(jumpAnimate());
+            }));
+    
+            runAsync().start();
+        })();
+        </script>
+        
+    <script type="text/javascript">
+    /*7Core-CN - 网页鼠标点击特效（爱心）*/
+    !function (e, t, a) {function r() {for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");requestAnimationFrame(r)}function n() {var t = "function" == typeof e.onclick && e.onclick;e.onclick = function (e) {t && t(), o(e)}}function o(e) {var a = t.createElement("div");a.className = "heart", s.push({el: a,x: e.clientX - 5,y: e.clientY - 5,scale: 1,alpha: 1,color: c()}), t.body.appendChild(a)}function i(e) {var a = t.createElement("style");a.type = "text/css";try {a.appendChild(t.createTextNode(e))} catch (t) {a.styleSheet.cssText = e}t.getElementsByTagName("head")[0].appendChild(a)}function c() {return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"}var s = [];e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {setTimeout(e, 1e3 / 60)}, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()}(window, document);
+    </script>
+</body>
+</html>
